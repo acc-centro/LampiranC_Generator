@@ -58,7 +58,7 @@
   <div class="p-5 text-center" >
     <h2 class="mb-1" style="font-size:16px">Borang Pengesahan Akaun Bank Untuk Pembayaran</h2>
     <h1 class="mb-1" style="font-size:22px">
-      <b>Untuk Pembayaran Am</b>
+      <b>Elaun/Baucar Bayaran Am</b>
     </h1>
     <h3 class="mb-3" style="font-size:18px">
       <u>Melalui Alliance Online Banking</u>
