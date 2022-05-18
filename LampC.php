@@ -86,7 +86,7 @@
         $(document).ready(function(){
         $("#nama").keypress(function(event){
             var inputValue = event.charCode;
-            if(!(inputValue >= 67 && inputValue <= 122) && (inputValue != 32 && inputValue != 0)){
+            if(!(inputValue >= 65 && inputValue <= 122) && (inputValue != 32 && inputValue != 0)){
                 event.preventDefault();
             }
         }); 
@@ -96,7 +96,7 @@
     <div class="mb-3 row">
       <label for="nama" class="col-sm-2 col-form-label">Nama Syarikat /Perniagaan</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" maxlength="60" name="full_name" id="nama" style="text-transform:uppercase;" required>
+        <input type="text" class="form-control" maxlength="60" name="company_name" id="nama" style="text-transform:uppercase;" required>
       </div>
     </div>
 
@@ -197,7 +197,7 @@
     <div class="mb-3 row">
       <label for="cawangan_bank" class="col-sm-2 col-form-label">Cawangan Bank</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" maxlength="60" name="cawangan" id="cawangan_bank" style="text-transform:uppercase;" required>
+        <input type="text" class="form-control" maxlength="60" name="cawangan" id="cawangan_bank"  required>
       </div>
     </div>
 
